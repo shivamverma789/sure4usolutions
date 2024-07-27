@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sure4usolutions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/7852b0fda8.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/images/web-logo.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beiruti&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- ------------- header ------------ -->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1>sure4usolutions</h1>
+                    <!-- <img src="images/logo1.png" alt="logo"> -->
+                    <ul id="sidemenu">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/term.html">T&C</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    
+                </nav>
+                <!-- home page content -->
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="home-col-1">
+                        <h1 >"SURE 4 U SOLUTIONS"</h1>
+                        <ul>
+                            <li>
+                                <h3>Technical solutions for Bulk Material Handling Equipment (MHE)</h3>
+                            </li>
+                            <li>
+                                <h3>Training Sessions for -</h3>
+                                <ol>
+                                    <li>Skill Development</li>
+                                    <li>Performance Improvement</li>
+                                    <li>Time Management</li>
+                                    <li>Stress Management</li>
+                                    <li>Safety System For Cement Industry</li>       
+                                </ol>
+                            </li>
+                            <li>
+                                <h3>Counselling For -</h3>
+                                <ol>
+                                    <li>Personal Health Related Issues</li>
+                                    <li>Family Issues</li>
+                                    <li>Career Issues</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="home-col-2">
+                        <img src="images/owner.png" alt="">
+                        <h1>Consultant - Ravishanker Verma</h1>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <div id="service">
+            <div class="container-2">
+                <h1 class="sub-heading">Services and Expertise</h1>
+                <div class="row-2">
+
+                    <div class="service-col-1">
+                        
+                        <div class="ser-img">
+                            <div class="small-img">
+                                <img src="images/belt.png" alt="" class="img1">
+                                <img src="images/crasher.png" alt="">
+                            </div>
+                            <div class="big-img">
+                                <img src="images/crane.png" alt="">
+                                <img src="images/refiner.png" alt="">
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="service-col-2">
+                        <ol>
+                            <li>
+                                <p>Awareness training session (including On the Job Training) for Installation, Operation and Maintenance of Equipment like-</p>
+                                <ul>
+                                    <li><p>Wagon Tippler and Side Arm Charger</p></li>
+                                    <li><p>Stacker : Twin Boom, Slewing, Bucket Wheel</p></li>
+                                    <li><p>Reclaimer : Bridge type, pylon type scraper reclaimer</p></li>
+                                    <li><p>Belt Conveyor for any application</p></li>
+                                    <li><p>Bucket Elevator for any application</p></li>
+                                    <li><p>Screw Conveyor</p></li>
+                                    <li><p>Crusher for LimeStone Crushing, Coal Crushing and Additive Crushing</p></li>
+                                    <li><p>Packers and Bag transport and loading system</p></li>
+                                    <li><p>Truck / Wagon Loading machine</p></li>
+                                    <li><p>RABH (Reverse Air Bag House for Kiln) and Bag Filter</p></li>
+                                </ul>
+                            </li>
+                            <li><p>General  Awareness on Steel Structure Fabrication and Erection</p></li>
+                            <li><p>Breakdown analysis for all above mentioned equipment</p></li>
+                            <li><p>Why Why Analysis and recommendation for Corrective and Preventive action</p></li>
+                            <li><p>Upgradation feasibility study and recommendation of suitable actions</p></li>
+                            <li><p>Awareness sessions on 5-S concept</p></li>
+                            <li><p>Project Execution and it’s monitoring - Brownfield and Greenfield Projects</p></li>
+                            <li>
+                                <p>Awareness sessions on Safety :</p>
+                                <ul>
+                                    <li><p>Unsafe Condition Identification</p></li>
+                                    <li><p>Unsafe Act Reporting</p></li>
+                                    <li><p>Near Miss Case Reporting</p></li>
+                                    <li><p>Job Safety Analysis before starting any work in plant area</p></li>
+                                    <li><p>Hazard Identification and Risk Assessment</p></li>
+                                    <li><p>Work Permit System</p></li>
+                                </ul>
+                            </li>
+
+                        </ol>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="foot-container">
+                <div class="footer-name">
+                    <p>sure4usolutions</p>
+                </div>
+                <div class="footer-mail">
+                    <a data-auto-recognition="true" href="mailto:sure4usolutions@gmail.com">sure4usolutions@gmail.com</a>
+                </div>
+                <div class="copyright">
+                    <p>©2023 by sure4usolutions.</p>
+                </div>
+            </div>
+        </div>
+
+<!-- -------------script--------------- -->
+        <script>
+            var sidemenu =document.getElementById("sidemenu");
+    
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+    
+        </script>
+</body>
+
+</html>
